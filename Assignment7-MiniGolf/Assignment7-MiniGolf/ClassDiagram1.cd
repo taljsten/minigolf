@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment7_MiniGolf.GameManager">
+    <Position X="3.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gE0giIABIBBYhQUIQJAAAEYACoBmMAGBBDEgCQAAIow=</HashCode>
+      <FileName>Managing\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="course" />
+      <Field Name="ball" />
+      <Field Name="player" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.MainWindow">
+    <Position X="0.5" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AGAABAIAMAAAAAkAAAAESAEhCYAAAAAiAAQkEwAIEAE=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameManager" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Course">
+    <Position X="6.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAABAAAgAAAAIAAAAAAgQQAAAFEAAQAAAIAAAI=</HashCode>
+      <FileName>Course\Course.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="obstacles" />
+      <Field Name="tee" />
+      <Field Name="hole" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Obstacle">
+    <Position X="12.25" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAEgAAgAAgAIAAIAAAAEACAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Course\Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Hole">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEAAAAAAgAAAAIAAAAAAAAEEAAAABAAAAAAA=</HashCode>
+      <FileName>Course\Hole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Ball">
+    <Position X="6.25" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEAAAAAAgAAACIAAFAAAAAUEAAAgBAgAIAAA=</HashCode>
+      <FileName>Course\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Tee">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAEAAAgAAgAIAAIAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Course\Tee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Player">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAEAAAAAAAAAQAAIAEAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Managing\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Calculator">
+    <Position X="15" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAIAQAA=</HashCode>
+      <FileName>Physics\Calculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment7_MiniGolf.Collider">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAgAIAAIAAAAAAAAAAAIAAAACAAAAA=</HashCode>
+      <FileName>Physics\Collider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Assignment7_MiniGolf.GameState" Collapsed="true">
+    <Position X="15" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAEAACAAAEAAAAAAAAAEAIAAAEAAAAAAEEAAAA=</HashCode>
+      <FileName>Managing\GameEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Assignment7_MiniGolf.PlayerInput" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAgAAAAEAAAA=</HashCode>
+      <FileName>Managing\GameEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
